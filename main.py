@@ -5,7 +5,7 @@ bot = commands.Bot(command_prefix = "--", self_bot=True)
 
 @bot.event
 async def on_ready():
-    print("Linux Kyrios Bumper is Online!")
+    print("Linux Kyrios Bumper is OnLine!")
 
 @bot.command()
 async def bump(ctx):

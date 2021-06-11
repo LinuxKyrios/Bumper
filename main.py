@@ -8,11 +8,12 @@ async def on_ready():
     print("Linux Kyrios Bumper is Online!")
 
 @bot.command()
-async def bumper(ctx):
+async def bump(ctx):
     while True:
         await ctx.send("!d bump")
-        time.sleep(7260)
+        print("Bump sent")
+        time.sleep(7200)
 
-token = "Nzc3NDc4ODQ1ODc5NTQ5OTUy.YMOo2g.4SfjBkr-VYULAkfZ8senkUSL690"
+token = "Nzc3NDc4ODQ1ODc5NTQ5OTUy.YMOw9w.et1U9tLErliZL4Xi70vvmzmsDZI"
 
 bot.run(token, bot = False)
